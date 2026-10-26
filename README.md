@@ -88,3 +88,5 @@ Modele oceniono za pomocą metryk accuracy, precision, recall, F1-score i ROC-AU
 | Random Forest | 0,764 | 0,548 | 0,623 | 0,583 | 0,824 |
 | Decision Tree | 0,727 | 0,487 | 0,489 | 0,488 | 0,652 |
 | Gradient Boosting | 0,803 | 0,666 | 0,516 | 0,581 | 0,843 |
+
+Regresja logistyczna osiągnęła najwyższy wynik F1-score (0,604), zachowując dobry kompromis między precision i recall. Random Forest uzyskał najwyższy recall (0,623), dzięki czemu wykrywał największą część klientów, którzy faktycznie zrezygnowali z usług. Gradient Boosting osiągnął najwyższy ROC-AUC (0,843) i precision (0,666). Wybór modelu zależy od tego, czy ważniejsze jest wykrycie jak największej liczby odchodzących klientów, czy ograniczenie fałszywych alarmów.
