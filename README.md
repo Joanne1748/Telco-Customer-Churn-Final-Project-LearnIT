@@ -76,3 +76,15 @@ Projekt obejmuje następujące etapy:
 - Random Forest.
 - Decision Tree.
 - Gradient Boosting.
+
+## Wyniki
+
+Modele oceniono za pomocą metryk accuracy, precision, recall, F1-score i ROC-AUC. Szczególną uwagę zwrócono na zdolność wykrywania klientów, którzy faktycznie zrezygnowali z usług.
+
+| Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Dummy Classifier | 0,735 | 0,000 | 0,000 | 0,000 | 0,500 |
+| Regresja logistyczna | 0,806 | 0,657 | 0,559 | 0,604 | 0,842 |
+| Random Forest | 0,764 | 0,548 | 0,623 | 0,583 | 0,824 |
+| Decision Tree | 0,727 | 0,487 | 0,489 | 0,488 | 0,652 |
+| Gradient Boosting | 0,803 | 0,666 | 0,516 | 0,581 | 0,843 |
